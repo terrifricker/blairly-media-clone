@@ -21,6 +21,7 @@ body {
     justify-content: space-around;
     align-items: baseline;
     z-index: 1;
+    animation: 4s ease-out forwards fade-in;
 }
 #top-nav a {
     font-size: .7rem;
@@ -41,6 +42,7 @@ body {
     transform-origin: left;
     transform: rotate(90deg) translate(-20px, -60px);
     z-index: 1;
+    animation: 4s ease-out forwards fade-in;
 }
 #social-media-nav a {
     margin: 0 1rem;
