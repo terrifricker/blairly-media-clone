@@ -1,6 +1,14 @@
+/* CSS resets */
 * {
     box-sizing: border-box;
 }
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Custom CSS */
 body {
     margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
