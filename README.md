@@ -18,11 +18,12 @@ The original site's above the fold section fades in nicely.  It's background sta
 
 I started with a single background photograph and spent a lot of time fiddling around with the css properties background-origin, background-size, and background-position to enlarge my couple and shift them to the left of the screen.  Instead of a simple gray overlay, I added a gradient that is darker on the left, where my title is and lighter on the right where my couples' faces are.  It also took me time to work out the fade-in animation, having it start as a black screen and fading in the photo and gradient.
 
-<img width="1708" alt="Screenshot of current state of my website clone" src="https://github.com/user-attachments/assets/4a894c42-504e-44eb-91f0-19c306e8d1ee">
+<img width="1500" alt="Screenshot of background image with title" src="https://github.com/user-attachments/assets/4a894c42-504e-44eb-91f0-19c306e8d1ee">
 
 
 ### Working Session 2
 #### Navigation
+<img width="1500" alt="Screenshot with added navigation menus" src="https://github.com/user-attachments/assets/02fab13b-9e24-4a40-a949-a14c2e2e1758">
 
 
 
