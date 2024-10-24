@@ -21,3 +21,8 @@ I started with a single background photograph and spent a lot of time fiddling a
 <img width="1708" alt="Screenshot of current state of my website clone" src="https://github.com/user-attachments/assets/4a894c42-504e-44eb-91f0-19c306e8d1ee">
 
 
+### Working Session 2
+#### Navigation
+
+
+
