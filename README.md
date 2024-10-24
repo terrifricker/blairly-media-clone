@@ -23,6 +23,8 @@ I started with a single background photograph and spent a lot of time fiddling a
 
 ### Working Session 2
 #### Navigation
+The top navigation was straight forward for me using flexbox, but I had to fiddle with the social media navigation's rotation and placement.  I also needed to add position to each to create a stacking context so I could give them each a z-index of 1 so they appear above the background image.
+
 <img width="1500" alt="Screenshot with added navigation menus" src="https://github.com/user-attachments/assets/02fab13b-9e24-4a40-a949-a14c2e2e1758">
 
 
