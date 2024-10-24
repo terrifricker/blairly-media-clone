@@ -25,6 +25,33 @@ body {
 #top-nav a:active {
     color: white;
 }
+#social-media-nav {
+    padding: 0;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    transform-origin: left;
+    transform: rotate(90deg) translate(-20px, -60px);
+    z-index: 1;
+}
+#social-media-nav a {
+    margin: 0 1rem;
+    font-family: 'Bodini Moda', serif;
+    font-style: italic;
+    font-size: 1rem;
+    text-decoration: none;
+}
+#social-media-nav a:link,
+#social-media-nav a:visited,
+#social-media-nav a:hover,
+#social-media-nav a:active {
+    color: white;
+}
+#social-media-nav img {
+    width: 1rem;
+    margin-right: .2rem;
+}
 #hero {
     width: 100%;
     height: 100vh;
