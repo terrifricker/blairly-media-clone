@@ -28,4 +28,15 @@ The top navigation was straight forward for me using flexbox, but I had to fiddl
 <img width="1500" alt="Screenshot with added navigation menus" src="https://github.com/user-attachments/assets/02fab13b-9e24-4a40-a949-a14c2e2e1758">
 
 
+### Working Session 3
+#### Correcting the hero section
+Adding content to sections below my above the fold, hero section showed that my solutions for styling the image relied on it being the only section in the site.  I had to change the positioning on the section.  I originally used `position: fixed; top: 0;` to start it at the top of the document, but then it is taken out of document flow and doesn't scroll up.  Switching to `position: relative; top: -67px;` keeps it in the document flow and moves it up the height of the top nav.  I avoided that solution at first because I didn't want to code an exact number.
+
+Now my section can scroll up out of the way, but I have my background-image set as fixed as well, so it doesn't scroll up as desired.  Removing `background-attachment: fixed;` resolves this isssue.
+
+To have my screen start black, then have the hero section fade in, I added `background-color: black;` to the body element.  I really only want my hero section to start as black, so I added a #hero-container around it and set it's background black.  The header then showed with a white background, but moving the positioning information from #hero up into #hero-container makes the entire screen start black.
+
+I added the animation property to each nav menu as well.  Now the hero section works as expected.
+
+
 
