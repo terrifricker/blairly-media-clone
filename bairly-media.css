@@ -103,7 +103,27 @@ body {
     padding: 0;
     margin: 0;
 }
-
+#the-experiences {
+    height: 100vh;
+    display: flex;
+    border: 1pt solid dodgerblue;
+}
+#experiences-menu {
+    flex: 1;
+    border: 1pt solid hotpink;
+}
+#experiences-summary {
+    flex: 5;
+    border: 1pt solid hotpink;
+}
+#experiences-locations {
+    flex: 1;
+    border: 1pt solid hotpink;
+}
+#experiences-image {
+    flex: 2;
+    border: 1pt solid hotpink;
+}
 @keyframes fade-in {
     from {
         opacity: 0;
